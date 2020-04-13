@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #e6e9e6;
+}
+
+.wrapper {
+  width: 100%;
+}
+.wrapper .background-top {
+  background-color: #4098b6;
+  width: 100%;
+  height: 250px;
+}
+.wrapper .background-top .icon {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+.wrapper .background-top .icon .fas {
+  font-size: 40px;
+  color: #ffffff;
+}
+.wrapper .content-wrapper {
+  background-color: #ffffff;
+  width: 60%;
+  margin: -110px auto 0;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px -10px rgba(0, 0, 0, 0.4);
+}
+.wrapper .content-wrapper .title-wrapper {
+  width: 80%;
+  margin: auto;
+  padding: 15px 0 45px;
+}
+.wrapper .content-wrapper .title-wrapper h1 {
+  text-align: center;
+  font-size: 60px;
+  letter-spacing: 8px;
+  font-weight: 400;
+  margin: 60px 0 20px;
+}
+.wrapper .content-wrapper .paragraphs {
+  font-size: 18px;
+  letter-spacing: 1px;
+  color: #808080;
+  margin: 0;
+  padding: 20px 0 0;
+}
+.wrapper .content-wrapper .img-wrapper .img {
+  background-image: url(https://images.unsplash.com/photo-1542435503-956c469947f6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80);
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  margin-bottom: 10px;
+}
+.wrapper .content-wrapper .img-wrapper .paragraphs:nth-child(2) {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0 30px;
+}
+.wrapper .content-wrapper .articles {
+  width: 80%;
+  margin: auto;
+  padding: 30px 0 30px;
+}
+.wrapper .content-wrapper .articles .titles {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 400;
+}
+.wrapper .content-wrapper .link-1 {
+  font-size: 18px;
+  padding-top: 18px;
+}
+.wrapper .background-bottom {
+  width: 60%;
+  margin: 40px auto 0;
+  background-color: #9de9f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px -10px rgba(0, 0, 0, 0.4);
+}
+.wrapper .background-bottom span {
+  padding-bottom: 10px;
+}
+.wrapper .links {
+  color: #44a4c4;
+}
+
+.footer-wrapper {
+  width: 60%;
+  margin: 40px auto 0;
+  font-size: 14px;
+  color: #808080;
+}
+.footer-wrapper .footer-links {
+  color: #000000;
+}
+.footer-wrapper .footer-paragraphs {
+  padding: 20px 0 10px;
+  margin: 0;
+}
+.footer-wrapper .footer-paragraphs:last-child {
+  margin-bottom: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */
